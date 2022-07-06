@@ -1,0 +1,96 @@
+/*Aplica para contacto*/
+
+body{
+	background-color: gray;
+	color: black; /*color de texto*/
+
+}
+
+#Barra a{ /*estilo a las etiquetas a*/
+	text-decoration: none;
+	color: black;
+
+}
+
+#Barra a:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+#Barra{	/*formato a todo el id: Barra*/;
+	background:Chocolate ; /*color de fondo*/
+	position: absolute; /*tomara todo el espacio*/
+	left: 0; 	/*para que tome el lugar del lugar del margen superior izquierda*/ 
+	top: 0;	/*para que suba al margen superior*/
+	display: block;
+	width: 100%;
+}
+
+#Barra ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	0
+}
+
+#Barra li{
+	float: left;
+}
+
+#Barra li a{
+	padding: 30px; /*espacio entre los elementos*/
+	display: inline-block;
+	text-decoration: none;
+}
+
+#Barra li a:hover{
+	background-color: white;
+	color: black;
+
+}
+
+img {
+	width: 100%;
+}
+
+/*Identificador de contenido*/
+
+#Contenido{
+	max-height: 1200px;
+	position: :relative;
+	top: 80px;
+	margin: 0 auto;
+	background: AntiqueWhite;
+	padding: 2%;
+}
+
+#Contenido header{
+	clear: both;
+	height: 120px; /*alto*/
+	padding: 10px 20px;
+	background-color: DarkGray;
+	border-radius: 1em;
+}
+
+#Principal{
+	height: 600px; /*alto*/
+	width: 35%; /*ancho*/
+	float: left; /*ubicar a la izq*/
+	padding: 10px; /*rspaciado*/
+}
+
+#Secundario{
+	width: 35%; /*ancho*/
+	float: left; /*ubicar a la izq*/
+	padding: 10px; /*espaciado*/
+}
+
+
+#Contenido footer{
+	clear: both;
+	width: 100%;
+	background: DarkGray;
+	height: 50px;
+	border-radius: 1em;
+	text-align: center;
+}
