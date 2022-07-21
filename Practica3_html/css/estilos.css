@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+	font-family:Segoe IU ,sans-serif;
+	font-size: 15px;
+	background: SteelBlue;
+	
+
+}
+
+.contenedor{
+	width: 90%;/*anchura se maneja con porcentajes*/
+
+	margin: 20px auto;
+	overflow: hidden;/*para colocar elementos en linea*/
+}
+
+header {
+	background: black;
+
+}
+
+header nav{
+	width: 90%; /*anchura se maneja con porcentajes*/
+
+}
+
+header nav ul{
+	width: 100%;/*anchura se maneja con porcentajes*/
+
+	overflow: hidden;
+	list-style: none;
+}
+
+header nav ul li{
+	float: left;
+
+}
+
+header nav ul li a{
+	text-decoration: none;|
+	display: inline-block;
+	padding: 15px 20px;
+	color: white;
+}
+
+header nav ul li a:hover{
+	background:black ;
+	color: OrangeRed;
+}
+.main {
+	width: 70%;/*anchura se maneja con porcentajes*/
+
+	background: PowderBlue;
+	float: left;
+}
+
+.main .imagen img{
+	width: 100%; /*anchura se maneja con porcentajes*/
+	vertical-align: top;
+}
+.main .post article h2{
+	margin-bottom: 20px;
+	line-height: 27px;
+	color: black;
+}
+
+aside {
+	width: 30%;/*anchura se maneja con porcentajes*/
+	padding: 20px;
+	color: black;
+	background: GhostWhite;
+	float: left;
+}
+
+aside .lateral{
+	margin-bottom: 20px;
+}
+aside .lateral .titulo{
+	color: ff8000;
+	border-bottom: 1px solid #ff8000;
+	margin-bottom: 10px;
+}
+aside .lateral ul{
+	list-style: none;
+}
+aside .lateral ul li{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+aside .lateral ul li a{
+	color: black;
+	text-decoration: none;
+}
+aside .lateral ul li a:hover{
+	color: OrangeRed;
+}
+aside .lateral p{
+	line-height: 27px;
+}
+
+footer{
+	width: 70%;/*anchura se maneja con porcentajes*/
+	background: black;
+	color: white;
+	padding: 15px 0;
+	text-align: center;
+
+}
+
+/*Uso de mediaqueries*/
+@media screen and (max-width: 800px){
+	.main{
+		width: 100px;
+		font-size: 12px;	
+		background: white;
+  	}
+    aside{
+	width: 100%;
+    }
+    footer{
+	width: 100%;
+    }
+
+}
